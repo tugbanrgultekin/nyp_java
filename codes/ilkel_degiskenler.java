@@ -32,7 +32,7 @@ public class main1 {
 		System.out.println(f);
 		
 		//d=f olur , f=d olmaz
-		//küçük sayıyı büyük sayıysa atayabiliriz, büyük sayıyı küçük sayıya atayamayız
+		//küçük sayıyı büyük sayıya atayabiliriz, büyük sayıyı küçük sayıya atayamayız
 		
 		//double örnek:
 		double d = 20.7283789374;
