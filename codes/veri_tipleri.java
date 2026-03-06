@@ -1,3 +1,5 @@
+package nypcalisma1;
+
 public class main1 {
 
 	public static void main(String[] args) {
@@ -32,7 +34,7 @@ public class main1 {
 		System.out.println(f);
 		
 		//d=f olur , f=d olmaz
-		//küçük sayıyı büyük sayıya atayabiliriz, büyük sayıyı küçük sayıya atayamayız
+		//küçük sayıyı büyük sayıysa atayabiliriz, büyük sayıyı küçük sayıya atayamayız
 		
 		//double örnek:
 		double d = 20.7283789374;
@@ -47,8 +49,19 @@ public class main1 {
 		
 		char c ='a';
 		char mykey = 3; //eğer char değişkenine int ataması yapılırsa ASCII değerini alır
-		char mykey2 = '\u00DF'; // \u ile ASCII tablosundaki farklı imgeleri alabiliriz
+		char mykey2 = '\u00DF'; //  \ u ile ASCII tablosundaki farklı imgeleri alabiliriz
 		System.out.println(mykey2);
+		
+		//String:
+		
+		String metin = "merhaba java!"; //metni saklar
+		metin = metin.toUpperCase(); // harfleri büyüttü
+		String altmetin = metin.substring(8, 12); //12'yi almaz 8'i alır baştan itibaren sayarak verilen sayılara denk gelen harfleri sayarak ilerler
+		
+		String test = " 17";
+		String yenimetin = altmetin + test;
+		
+		System.out.println(altmetin + test);
 		
 	}
 
