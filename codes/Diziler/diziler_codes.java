@@ -9,8 +9,6 @@ import java.lang.Math;
 
 public class Main {
 	public static void main(String[] args) {
-		
-		
 		//---------------------------------
 		/*
 		//DİZİNİN YAZIMI
@@ -150,7 +148,7 @@ public class Main {
 		
 		//----------------------------------------------------------------
 		
-		// Arrays.equels(list1, list2) / Arrays.compare(list1, list2)
+		// Arrays.equals(list1, list2) / Arrays.compare(list1, list2)
 		
 		int[] dizi1 = {5,9,12,15,18,25,6,3,25,1,4};	
 		int [] dizi2 = new int[dizi1.length];
